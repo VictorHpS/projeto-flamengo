@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
+    --cor0:#f8f8f8da;
+    --cor1:#D2232A;
+    
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Shippori Antique B1', sans-serif;
+
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-destaque);
+}
+
+header{
+    background-color: #D2232A;
+    min-height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header > h1{
+    color: black;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(37, 36, 36, 0.144);
+    background-color: rgb(185, 40, 40);
+    border-radius: 5px;
+    
+}
+
+header > p {
+    color: black;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(46, 45, 45, 0.123);
+
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+   margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition-duration: 0.3s;
+}
+
+nav{
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.37);
+    color: white;
+    background-color: black;
+}
+
+nav > a:hover{
+    background-color: #c03236;
+    color: white;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main  p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+
+}
+
+main strong{
+    color:#c03236;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#c03236;
+    background-color: white;
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color:#c03236;
+}
+
+main h1{
+    color:black;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+main h2{
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 8px;
+}
+
+main img{
+    width: 35%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+   padding: 5px;
+    
+}
+
+footer a {
+    color: rgb(245, 101, 101);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #f3070e;
+}
+
+article h1 {
+    font-weight: bold;
+}
